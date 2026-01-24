@@ -1,12 +1,3 @@
-# **Packet Tracer - Logical and Physical Mode Exploration**
-
-In this activity, I have accomplished the following learning objectives:
-
- -Investigate Devices in a Wiring Closet
- -Connect End Devices to Networking Devices
- -Install a Backup Router
- -Configure a Hostname
-
 # **Threat domains**
 
 which are areas of control, authority or protection that attackers can exploit to gain access to a system; hence why it is important for an organization to know the vulnerabilities in their threat domains.
