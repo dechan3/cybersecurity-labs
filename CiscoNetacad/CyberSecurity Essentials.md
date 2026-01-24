@@ -16,3 +16,10 @@ Backdoors grant access to the attacker even if the original breach or vulnerabil
 
 -**Rootkits** are malwares that modify the OS to create a backdoor by taking advantage of software vulnerabilities, which leads to unauthorized system resources making it very hard to detect and require, most of the time, a complete wipe off and reinstallation.
 
+# **Social engineering** 
+Less tactical and nerdy, yet very effective, plays on emotions and needs, social engineering exploits human nature, plays around greed or vanity.
+
+- Pretexting : attacker establishes trust with the victim, so the attacker lies to gain access
+- Quid pro quo (smth for smth) : Request for information in exchange for something
+- Identity fraud : Pretty straight forward, the use of someone else's identity to obtain good and services such as creating a credit card in your name with your personal information.
+
