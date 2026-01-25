@@ -52,3 +52,16 @@ Accessing Resources: The URL specifies where to go (e.g., https://www.example.co
   Ensure patches and upgrades are current.
   Distribute the workload across server systems.
   Network devices use Internet Control Message Protocol (ICMP) packets to send error and control messages, such as whether or not a device can communicate with another on the network. To prevent DoS     and DDoS attacks, organizations can block external ICMP packets with their firewalls.
+
+# **Wireless and mobile device attacks**
+We're talking grayware which is an app that, altough may not be considered a very dangerous malware, it still poses risks to the user and lack of privacy like location, (because let's be honest, who wants and thinks a random app on their phone that does nothing has its place there, surely it comes with some kind of threats) and smishing, which is fake texts to lead you to click on unwanted links or call some numbers all to get you some malware or any other possible threats.
+
+Rogue access point attacks are often combined with social engineering to gain physical or logical access to networking infrastructure, allowing an unauthorized access point to be connected to the network and used as a man-in-the-middle to capture credentials and traffic.
+In parallel or separately, an evil twin access point may be deployed, impersonating a legitimate AP by using the same SSID and configuration. On networks without protected management frames, attackers can abuse unauthenticated deauthentication frames to force client devices to disconnect from the legitimate AP.
+Once disconnected, client devices automatically scan for known networks and may reconnect to the attacker’s access point if it appears stronger or more available, enabling traffic interception.
+This attack primarily affects older or misconfigured networks, as modern standards such as WPA3 and 802.11w protect management frames using cryptographic validation, causing forged frames to be ignored.
+
+# **Attacks Against Wi-Fi Protocols**
+WEP was an early wireless security protocol that encrypted Wi-Fi traffic for a security and protection that's said to be as good as wired networks but suffered from serious flaws, including poor key management and weak initialization vectors, making it easy to crack by capturing traffic.
+WPA and WPA2 were introduced to fix these issues by using stronger encryption and dynamic key management. While WPA2 prevents attackers from recovering the encryption key from captured traffic, encrypted packets can still be intercepted and analyzed.
+
