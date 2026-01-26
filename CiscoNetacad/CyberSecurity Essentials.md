@@ -65,3 +65,29 @@ This attack primarily affects older or misconfigured networks, as modern standar
 WEP was an early wireless security protocol that encrypted Wi-Fi traffic for a security and protection that's said to be as good as wired networks but suffered from serious flaws, including poor key management and weak initialization vectors, making it easy to crack by capturing traffic.
 WPA and WPA2 were introduced to fix these issues by using stronger encryption and dynamic key management. While WPA2 prevents attackers from recovering the encryption key from captured traffic, encrypted packets can still be intercepted and analyzed.
 
+# **Buffer Overflow**
+Buffers are memory areas allocated to certain applications, a buffer overflow overwhelms a memory buffer with too much data. On system terms, it's like a DDoS of memory, but they're very different. A buffer Overflow, you write more data than a memory buffer can hold, extra data spills into adjacent memory, which can lead to crashing the program, overwrite return addresses/variables, and most importantly lead to code execution, it's about memory corruption and control flow.
+DDoS = flooding a door so no one else can enter
+Buffer overflow = shoving extra stuff into a drawer until it breaks and messes up the whole cabinet
+One blocks access.
+The other breaks structure.
+
+# **Defending against application attacks**
+- Solid code
+- Prudent programming (validation inputs from outside of a function)(regex)
+
+      Real-world example
+      Find an IP address:
+      \d{1,3}(\.\d{1,3}){3}
+      Check if text looks like an email:
+      [A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}
+
+      Why it matters (especially for you)
+
+      Parsing logs
+      Filtering network traffic
+      Grep, sed, awk, SIEM tools
+      CTFs & OverTheWire challenges
+      Input validation & security checks
+
+- keep all softwares up to date
