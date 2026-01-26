@@ -88,7 +88,7 @@ The other breaks structure.
       Parsing logs
       Filtering network traffic
       Grep, sed, awk, SIEM tools
-      CTFs & OverTheWire challenges
+      CTFs challenges
       Input validation & security checks
 
 - keep all softwares up to date
