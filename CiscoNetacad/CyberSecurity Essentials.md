@@ -27,7 +27,7 @@ Less tactical and nerdy, yet very effective, plays on emotions and needs, social
 - Malwares (viruses, worms, trojan horses...)
 - Logic bombs, "detonate" at a certain specific date or query, waits for a trigger implementing then a malicious code
 - Ransomware : Holds a computer until a certain payment is done
-- Denial of service (Dos) : sent of overwhelming quantity of packets or malicious formatted ones
+- Denial of service (Dos) : sent of overwhelming quantity of packets
 - Distributed Dos (DDos) : similar but originate from multiple sources, the attacker creates a network (botnet) of infected hosts called zombies.
 - Domain name system (DNS) : Translates a domain name (ex : www.google.com into IP -> 8.8.8.8) so if a DNS doesn't know the ip, it'll ask another DNS server, hence why organizations need to monitor their domain reputation to protect against external domains attacks such as **DNS spoofing** (redirects traffic somewhere else), **domain hijacking** (make changes to the target's DNS infos), **uniform ressource location (URL)** (redirecting to a malicious website instead of the official one) DNS attacks are usually used in phishing.
   
