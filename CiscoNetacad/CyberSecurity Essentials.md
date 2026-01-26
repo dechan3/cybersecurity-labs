@@ -56,7 +56,7 @@ Accessing Resources: The URL specifies where to go (e.g., https://www.example.co
 # **Wireless and mobile device attacks**
 We're talking grayware which is an app that, altough may not be considered a very dangerous malware, it still poses risks to the user and lack of privacy like location, (because let's be honest, who wants and thinks a random app on their phone that does nothing has its place there, surely it comes with some kind of threats) and smishing, which is fake texts to lead you to click on unwanted links or call some numbers all to get you some malware or any other possible threats.
 
-Rogue access point attacks are often combined with social engineering to gain physical or logical access to networking infrastructure, allowing an unauthorized access point to be connected to the network and used as a man-in-the-middle to capture credentials and traffic.
+**Rogue access point attacks** are often combined with social engineering to gain physical or logical access to networking infrastructure, allowing an unauthorized access point to be connected to the network and used as a man-in-the-middle to capture credentials and traffic.
 In parallel or separately, an evil twin access point may be deployed, impersonating a legitimate AP by using the same SSID and configuration. On networks without protected management frames, attackers can abuse unauthenticated deauthentication frames to force client devices to disconnect from the legitimate AP.
 Once disconnected, client devices automatically scan for known networks and may reconnect to the attacker’s access point if it appears stronger or more available, enabling traffic interception.
 This attack primarily affects older or misconfigured networks, as modern standards such as WPA3 and 802.11w protect management frames using cryptographic validation, causing forged frames to be ignored.
@@ -64,7 +64,7 @@ This attack primarily affects older or misconfigured networks, as modern standar
 # **Attacks Against Wi-Fi Protocols**
 WEP was an early wireless security protocol that encrypted Wi-Fi traffic for a security and protection that's said to be as good as wired networks but suffered from serious flaws, including poor key management and weak initialization vectors, making it easy to crack by capturing traffic.
 WPA and WPA2 were introduced to fix these issues by using stronger encryption and dynamic key management. While WPA2 prevents attackers from recovering the encryption key from captured traffic, encrypted packets can still be intercepted and analyzed.
----------------------
+
 # **Application Attacks**
 ### **Buffer Overflow**
 Buffers are memory areas allocated to certain applications, a buffer overflow overwhelms a memory buffer with too much data. On system terms, it's like a DDoS of memory, but they're very different. A buffer Overflow, you write more data than a memory buffer can hold, extra data spills into adjacent memory, which can lead to crashing the program, overwrite return addresses/variables, and most importantly lead to code execution, it's about memory corruption and control flow.
