@@ -187,3 +187,24 @@ This lab demonstrated several key attack techniques used in real-world network s
 
 Understanding these techniques helps security professionals implement effective defenses, including traffic monitoring, secure protocols, and network-layer protections.
 
+```mermaid
+flowchart LR
+
+V["Victim PC<br>IP: 192.168.43.129"]
+A["Kali Attacker<br>IP: 192.168.43.128<br>MAC: 00:0c:29:63:78:e1"]
+G["Gateway / Router<br>IP: 192.168.43.1"]
+
+%% Normal communication before attack
+V ---|Normal traffic| G
+
+%% ARP poisoning
+A -.->|ARP Spoof: Pretends to be Gateway| V
+A -.->|ARP Spoof: Pretends to be Victim| G
+
+%% MITM traffic flow
+V -->|Traffic redirected| A
+A -->|Forward to Gateway| G
+G -->|Traffic redirected| A
+A -->|Forward to Victim| V
+```
+
